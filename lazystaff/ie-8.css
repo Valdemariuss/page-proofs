@@ -1,0 +1,156 @@
+.table{
+	width: 98%;
+	margin:0px;
+}
+
+.logo__icon {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/logo-symbol.png', sizingMethod='scale');
+}
+
+.social__fb {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/icon35-fb.png', sizingMethod='scale');
+}
+
+.social__fb:hover {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/icon35-fb-act.png', sizingMethod='scale');
+}
+
+.social__google {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/icon35-google.png', sizingMethod='scale');
+}
+
+.social__google:hover {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/icon35-google-act.png', sizingMethod='scale');
+}
+
+.social__in {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/icon35-in.png', sizingMethod='scale');
+}
+
+.social__in:hover {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/icon35-in-act.png', sizingMethod='scale');
+}
+
+.social__twitter {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/icon35-tw.png', sizingMethod='scale');
+}
+
+.social__twitter:hover {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/icon35-tw-act.png', sizingMethod='scale');
+}
+
+.hexagon__bg {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/hexagon-foto-white.png', sizingMethod='scale');
+}
+
+.resume:hover .hexagon__bg, .resume_active .hexagon__bg {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/hexagon-foto.png', sizingMethod='scale');
+}
+
+.icon-hexagon {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/hexagon48.png', sizingMethod='scale');
+}
+
+.icon-hexagon-wht, .resume:hover .icon-hexagon, .resume_active .icon-hexagon {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/hexagon48-white.png', sizingMethod='scale');
+}
+
+.icon-cup {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/trophy24.png', sizingMethod='scale');
+}
+
+.icon-cup-wht, .resume:hover .icon-cup, .resume_active .icon-cup {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/trophy-white24.png', sizingMethod='scale');
+}
+
+.icon-book {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/book-green.png', sizingMethod='scale');
+}
+
+.icon-book-wht, .resume:hover .icon-book, .resume_active .icon-book {
+	margin-left: 0;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/book-white.png', sizingMethod='scale');
+}
+
+.icon-lang {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/language24.png', sizingMethod='scale');
+}
+
+.icon-lang-wht, .resume:hover .icon-lang, .resume_active .icon-lang {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/language-white24.png', sizingMethod='scale');
+}
+
+.resume .drop-down__icon,
+.btn-grn:hover .drop-down__icon{
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/menu-green16.png', sizingMethod='scale');
+}
+
+.drop-down__icon,
+.resume:hover .drop-down__icon, .resume_active .drop-down__icon{
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/menu-white16.png', sizingMethod='scale');
+}
+
+.icon-stack {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/stack24.png', sizingMethod='scale');
+}
+
+.icon-layers {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/layers24.png', sizingMethod='scale');
+}
+
+.pager__item-prev {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/chevron-with-circle-left-darkblue16.png', sizingMethod='scale');
+}
+
+.pager__item-next {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='assets/images/icons/chevron-with-circle-right-darkblue16.png', sizingMethod='scale');
+}
+
+.test__image{
+	width: 48em;
+}
+
+.tests-nav__buttons{
+	display: table;
+	width: 100%;
+}
+.tests-nav__button{
+	display: table-cell;
+}
+
+@media screen and (max-width: 660px) {
+	.tests-nav__links{
+		padding-bottom: 1em;
+	}
+}
+BODY .team-search__item{
+	min-height: auto;
+}
+.logo-new .logo__icon{
+	filter:none;
+}

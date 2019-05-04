@@ -1,0 +1,42 @@
+/*BODY, HTML{*/
+	/*height: 100%;*/
+	/*min-height: 100%;*/
+/*}*/
+/*BODY{*/
+	/*display: table;*/
+	/*width: 100%;*/
+/*}*/
+
+/*.header, .main, .footer{*/
+	/*display: table-row;*/
+/*}*/
+/*.header, .footer{*/
+	/*height: 1%;*/
+/*}*/
+.select{
+	background: none !important;
+	background-color: #fff !important;
+	padding-right: .8em;
+}
+
+.bind-phone .input{
+	width: 60%;
+	min-width: 10em;
+}
+
+.tests-nav__buttons{
+	overflow: hidden;
+}
+.tests-nav__button:first-child{
+	float: left;
+}
+.tests-nav__button:last-child{
+	float: right;
+}
+
+.flex-inputs__item{
+	width: 46%;
+}
+.input-date{
+	background-position: 133% center;
+}
