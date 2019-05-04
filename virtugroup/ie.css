@@ -1,0 +1,44 @@
+BODY, HTML{
+	height: 100%;
+	min-height: 100%;
+}
+BODY{
+	display: table;
+	width: 100%;
+}
+
+.header, .main, .footer{
+	display: table-row;
+}
+.header, .footer{
+	height: 1%;
+}
+.header__cell{
+	margin-top: .7em;
+	margin-bottom: .5em;
+}
+
+.projects{
+	font-size: 0;
+}
+.project{
+	font-size: 10px;
+}
+
+.nav__item {
+	border-width: 1px;
+}
+@media screen and (min-width: 1450px) {
+
+	.header__cell{
+		margin-top: .6em;
+		margin-bottom: .8em;
+	}
+}
+@media screen and (max-width: 575px) {
+
+	.footer__social {
+		position: relative;
+		top: 1.3em;
+	}
+}

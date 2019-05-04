@@ -1,0 +1,7 @@
+#towerBox { position:relative; margin-top:100px; border-bottom:3px solid #8F8F8F; width:600px; text-align:left; }
+#towerBox I { display:block; position:absolute; bottom:0; width:5px; border:1px solid #8F8F8F; border-bottom:none; background:#E6E6E6; }
+#towerBox .tower-can { background:#ABF8CA; }
+#towerBox .tower-ban { background: #FA9898; }
+#towerBox DIV { width:80px; border:1px solid #8F8F8F; background: #B9A6C8; position:absolute; z-index:10; }
+#towerDirect { padding:20px 0; }
+#towerDirect SELECT { width:3em; }
