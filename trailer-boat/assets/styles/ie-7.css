@@ -1,0 +1,86 @@
+a {
+	cursor: pointer;
+}
+
+.header__cell {
+	display: inline-block;
+}
+
+.header__logo {
+	width: 20%;
+}
+
+.header__menu {
+	width: 80%;
+}
+
+.footer__cell {
+	display: inline-block;
+	width: 24.9%;
+}
+
+.office__box {
+	text-align: left;
+	overflow: hidden;
+}
+
+.office__item {
+	display: inline-block;
+	margin-right: .5em;
+}
+
+.office__item-last {
+	margin-right: 0;
+}
+
+.grid {
+	overflow: hidden;
+}
+
+.grid-2 .grid__block {
+	width: 49.99%;
+	display: block;
+	float: left;
+}
+
+.resume {
+	min-height: 20em;
+	overflow: hidden;
+}
+
+.resume__cell {
+	display: block;
+	float: left;
+}
+
+.resume__cell:first-child {
+	width: auto;
+}
+
+.icon-hexagon .icon {
+	margin-top: 1.3em;
+}
+
+.table__cell {
+	border-bottom: none;
+}
+
+.table__row {
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
+
+.test{
+	overflow: hidden;
+}
+.test__questions{
+	float: left;
+}
+.test__image{
+	float: right;
+}
+
+.input, .select{
+	padding-left: 0;
+	padding-right: 0;
+}

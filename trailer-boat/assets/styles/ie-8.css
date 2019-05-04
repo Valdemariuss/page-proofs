@@ -1,0 +1,7 @@
+SVG, USE{
+	display: none;
+}
+
+.buyer-menu__item{
+	white-space: nowrap;
+}

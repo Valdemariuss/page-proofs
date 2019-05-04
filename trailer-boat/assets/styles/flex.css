@@ -1,0 +1,7 @@
+@supports(display: flex){
+	.product__bay {
+		display: flex;
+		justify-content: space-between;
+		overflow: auto;
+	}
+}
