@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Pencase outsorce</title>
+    <link rel="stylesheet" type="text/css" href="css/pencase.css" />
+    <!-- lib -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.7.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.json-2.2.js"></script>
+    <!-- End lib-->
+    <!-- core -->
+    <script type="text/javascript" src="js/jquery.pencase.js"></script>
+    <script type="text/javascript" src="js/jquery.pencase.words.js"></script> 
+    <!-- End core -->
+    <!-- plugins -->
+        <!-- header -->
+        <script type="text/javascript" src="js/plugins/header.js"></script>
+        <!-- End header -->
+
+        <!-- text -->
+        <script type="text/javascript" src="js/plugins/text.js"></script>
+        <!-- End text -->
+
+        <!-- markdown -->
+        <script type="text/javascript" src="js/plugins/markdown/parser.js"></script>
+        <script type="text/javascript" src="js/plugins/markdown/editor.js"></script>
+        <script type="text/javascript" src="js/plugins/markdown/plugin.js"></script>
+        <!-- End markdown -->
+
+        <!-- nicEdit -->
+        <script type="text/javascript" src="js/plugins/nicEdit/nicEdit.js"></script>
+        <script type="text/javascript" src="js/plugins/nicEdit/plugin.js"></script>
+        <!-- End nicEdit -->
+
+        <!-- image -->
+        <script type="text/javascript" src="js/plugins/image.js"></script>
+        <!-- End image -->
+
+        <!-- video -->
+        <script type="text/javascript" src="js/plugins/video.js"></script>
+        <!-- End video -->    
+
+    <!-- End plugins -->
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />    
+</head>
+<body>
+    <center>
+        <form action="">
+            <textarea></textarea>
+            <br/>
+            <button type="submit">Отправить</button>
+        </form>
+    </center>
+    <script type="text/javascript">
+        $('textarea').pencase();
+        $('form').eq(0).submit(function(){
+            alert( $('textarea').eq(0).val() );
+        });
+    </script>
+</body>
+</html>
+
+
+
+

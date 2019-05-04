@@ -1,0 +1,43 @@
+BODY{
+	background-color: #54a6ec;
+}
+
+.main__wrap{
+	padding-bottom: 3em;
+}
+
+.nav__item,
+.nav__link{
+	display: block;
+	float: left;
+}
+
+.nav__item-right{
+	display: block;
+	float: right;
+}
+
+.nav-top .nav__link{
+	margin-left: 0;
+	padding-left: 1em;
+}
+
+.nav-top .nav__link:before{
+	left: -1em;
+}
+
+.footer{
+	position: relative;
+}
+
+.header__logo{
+	background: url("/assets/images/mos-okna-stroy.png") no-repeat center center;
+}
+
+.header__robots{
+	background: url("/assets/images/robots.png") no-repeat center center;
+}
+
+.search-submit{
+	background: url("/assets/images/search.png") no-repeat center center;
+}
